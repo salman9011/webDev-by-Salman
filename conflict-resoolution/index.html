@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conflict resolution</title>
+    <style>
+         header.navigation p{  /*both the rules have only one class but the first have  */
+        color:blue;          /* 2 elements and second has one element and the scroe of  
+        }                      first is 12 ans second is 11*/
+        p.blur{
+            color: black;
+        }
+        p{
+            color:green!important;  /*this is called overide which means i don't know*/
+        }                              /* any thing i want color as green*/
+    </style>
+</head>
+<body>
+   <header class="navigation">
+   <p class="blur">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo praesentium quae sint cumque inventore iure consequuntur expedita quos magni vitae cupiditate incidunt veniam, et quis ad in, dignissimos aliquid officia. 
+    </p>
+   </header>
+
+</body>
+</html>
