@@ -1,0 +1,27 @@
+a:link,a:visited{
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid blue;
+    color: black;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+a:hover,a:active{
+ background-color: red;
+ color:purple;   
+}
+ header li:nth-child(3){  /*decendent selector */
+  font-size: 20px;  
+
+}
+section div:nth-child(odd){
+    background-color: gray;
+
+}
+ section div:nth-child(4):hover{ /*pseudo selectors can also be combined   with decendent selectors */
+    background-color: green;
+    cursor: pointer;
+}
+
